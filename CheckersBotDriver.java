@@ -42,10 +42,10 @@ public class CheckersBotDriver {
 		Image imgs[] = new Image[4];
 
 		//Images for the four Checkers pieces
-		imgs [0] = ImageIO.read(new File("design_patterns\\checkers\\RED.png"));
-		imgs [1] = ImageIO.read(new File("design_patterns\\checkers\\BLACK.png"));
-		imgs [2] = ImageIO.read(new File("design_patterns\\checkers\\RED_KING.png"));
-		imgs [3] = ImageIO.read(new File("design_patterns\\checkers\\BLACK_KING.png"));
+		imgs [0] = ImageIO.read(new File("RED.png"));
+		imgs [1] = ImageIO.read(new File("BLACK.png"));
+		imgs [2] = ImageIO.read(new File("RED_KING.png"));
+		imgs [3] = ImageIO.read(new File("BLACK_KING.png"));
 		
 
 		JFrame frame = new JFrame("AT's Amazing Checkers Bot");
